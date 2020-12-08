@@ -28,5 +28,16 @@ namespace SistemaMedico
             Form Agendacli = new Agendacli();
             Agendacli.Show();
         }
+
+        private void sairToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void cadastroDeMédicosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form Medico = new Medico();
+            Medico.Show();
+        }
     }
 }

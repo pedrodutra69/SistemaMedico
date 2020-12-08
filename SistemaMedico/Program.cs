@@ -16,7 +16,7 @@ namespace SistemaMedico
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new SistemaMedico());
+            Application.Run(new Login());
         }
     }
 }
